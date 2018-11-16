@@ -6,7 +6,7 @@ demo
 GETTING STARTED
 ---------------
 
-For complete instructions, visit: https://github.com/hackalog/bus_number/wiki/Getting-Started
+For complete instructions, visit: http://bit.ly/bigdata-codequality-wiki
 
 * Create and switch to the  virtual environment:
 ```
