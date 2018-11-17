@@ -1,0 +1,4 @@
+algorithm_name,dataset_name,model_name,run_number,score,score_name
+gradientBoostingClassifier,mammographic_test,gradientBoostingClassifier_mammographic_train_1,1,0.75,accuracy_score
+linearSVC,mammographic_test,linearSVC_mammographic_train_1,1,0.7740384615384616,accuracy_score
+randomForestClassifier,mammographic_test,randomForestClassifier_mammographic_train_1,1,0.75,accuracy_score

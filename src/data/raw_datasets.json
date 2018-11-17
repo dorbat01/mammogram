@@ -1,1 +1,26 @@
-{}
+{
+  "mammographic": {
+    "dataset_dir": "/Users/mei/Documents/courses/bbconf/mammogram/data/raw",
+    "load_function_args": [],
+    "load_function_kwargs": {},
+    "load_function_module": "src.data.localdata",
+    "load_function_name": "process_csv",
+    "name": "mammographic",
+    "url_list": [
+      {
+        "file_name": null,
+        "hash_type": "sha1",
+        "hash_value": null,
+        "name": null,
+        "url": "https://archive.ics.uci.edu/ml/machine-learning-databases/mammographic-masses/mammographic_masses.data"
+      },
+      {
+        "file_name": "mammographic.readme",
+        "hash_type": "sha1",
+        "hash_value": null,
+        "name": "DESCR",
+        "url": "https://archive.ics.uci.edu/ml/machine-learning-databases/mammographic-masses/mammographic_masses.names"
+      }
+    ]
+  }
+}

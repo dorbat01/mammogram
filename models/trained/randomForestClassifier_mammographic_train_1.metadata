@@ -1,0 +1,29 @@
+{
+  "algorithm_name": "randomForestClassifier",
+  "algorithm_params": {
+    "bootstrap": true,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": "auto",
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_impurity_split": null,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 10,
+    "n_jobs": null,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "data_hash": "30d925e88b3e900c0b618753fb5975917001526e",
+  "dataset_name": "mammographic_train",
+  "duration": 0.01310586929321289,
+  "model_hash": "91fd592eca202963ce9e3a167ce6e5bb777971dc",
+  "run_number": 1,
+  "start_time": 1542421418.6543272,
+  "target_hash": "6302541ca7e5a33e32ae795c703bb59c4d1b4c16"
+}

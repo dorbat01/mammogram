@@ -1,0 +1,24 @@
+{
+  "algorithm_name": "linearSVC",
+  "algorithm_params": {
+    "C": 1.0,
+    "class_weight": null,
+    "dual": true,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "loss": "squared_hinge",
+    "max_iter": 200000,
+    "multi_class": "ovr",
+    "penalty": "l2",
+    "random_state": 42,
+    "tol": 0.0001,
+    "verbose": 0
+  },
+  "data_hash": "30d925e88b3e900c0b618753fb5975917001526e",
+  "dataset_name": "mammographic_train",
+  "duration": 0.025784969329833984,
+  "model_hash": "3ca53311b1153ad1512b722e16eca1bba6425eb0",
+  "run_number": 1,
+  "start_time": 1542421418.378386,
+  "target_hash": "6302541ca7e5a33e32ae795c703bb59c4d1b4c16"
+}

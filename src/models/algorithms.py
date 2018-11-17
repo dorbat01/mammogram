@@ -1,4 +1,6 @@
-
+from sklearn.svm import LinearSVC
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.linear_model import LogisticRegression
 
 def available_algorithms(keys_only=True):
     """Valid Algorithms for training or prediction
@@ -17,7 +19,10 @@ def available_algorithms(keys_only=True):
 
 
     """
-    _ALGORITHMS = {
+    _ALGORITHMS = {'linearSVC': LinearSVC(),
+                   'gradientBoostingClassifier': GradientBoostingClassifier(),
+                   'randomForestClassifier': RandomForestClassifier(),
+                   'logisticRegression': LogisticRegression()
     }
     if keys_only:
         return list(_ALGORITHMS.keys())

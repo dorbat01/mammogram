@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "algorithm_name": "linearSVC",
+    "algorithm_params": {
+      "max_iter": 200000,
+      "random_state": 42
+    },
+    "dataset_name": "mammographic_train",
+    "run_number": 1
+  },
+  {
+    "algorithm_name": "gradientBoostingClassifier",
+    "algorithm_params": {
+      "random_state": 42
+    },
+    "dataset_name": "mammographic_train",
+    "run_number": 1
+  },
+  {
+    "algorithm_name": "randomForestClassifier",
+    "algorithm_params": {
+      "n_estimators": 10,
+      "random_state": 42
+    },
+    "dataset_name": "mammographic_train",
+    "run_number": 1
+  }
+]

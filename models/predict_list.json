@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "dataset_name": "mammographic_test",
+    "is_supervised": true,
+    "model_name": "gradientBoostingClassifier_mammographic_train_1",
+    "output_dataset": "mammographic_test_gradientBoostingClassifier_mammographic_train_1"
+  },
+  {
+    "dataset_name": "mammographic_test",
+    "is_supervised": true,
+    "model_name": "linearSVC_mammographic_train_1",
+    "output_dataset": "mammographic_test_linearSVC_mammographic_train_1"
+  },
+  {
+    "dataset_name": "mammographic_test",
+    "is_supervised": true,
+    "model_name": "randomForestClassifier_mammographic_train_1",
+    "output_dataset": "mammographic_test_randomForestClassifier_mammographic_train_1"
+  }
+]
