@@ -5,9 +5,9 @@
 #################################################################################
 
 PROJECT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-BUCKET = dorbat01-mammo
+BUCKET = dorbat01-mammogram
 PROFILE = default
-PROJECT_NAME = mammo
+PROJECT_NAME = demo
 MODULE_NAME = src
 PYTHON_INTERPRETER = python3
 VIRTUALENV = conda
