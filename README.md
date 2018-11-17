@@ -6,7 +6,7 @@ demo
 GETTING STARTED
 ---------------
 
-For complete instructions, visit: http://bit.ly/bigdata-codequality-wiki
+For complete instructions, visit: http://bit.ly/bigdata-codequality
 
 * Create and switch to the  virtual environment:
 ```
