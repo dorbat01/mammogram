@@ -4,7 +4,7 @@ from src.paths import project_dir, interim_data_path
 
 from src.data.localdata import load_csv
 
-@unittest.skip(reason='skip for demo')
+unittest.skip(reason='skip for demo')
 class PreloadDataTestCase(unittest.TestCase):
 
     def test_load_csv_file_success(self):

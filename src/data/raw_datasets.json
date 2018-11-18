@@ -1,6 +1,6 @@
 {
   "mammographic": {
-    "dataset_dir": "/Users/mei/Documents/courses/bbconf/mammogram/data/raw",
+    "dataset_dir": "/Users/meibat01/Documents/mei/unittest/pyconf/bbconf/mammogram/data/raw",
     "load_function_args": [],
     "load_function_kwargs": {},
     "load_function_module": "src.data.localdata",

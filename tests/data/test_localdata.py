@@ -66,9 +66,9 @@ def test_process_csv_with_parameter_values_success(open_mock, mock_read_csv, moc
     actual = process_csv(**expected_parameters)
 
     open_mock.assert_called_once_with(test_filename, 'r')
-    mock_fit_transform.assert_called()
     mock_read_csv.assert_called_once_with(ANY, na_values=['?'],
                                           names=['BI-RADS', 'age', 'shape', 'margin', 'density', 'severity'])
+    mock_fit_transform.assert_called()
     assert actual.get('dataset_name') == expected_datasetname
     assert np.array_equal(actual.get('data'), expected_scaled_features)
     assert actual.get('metadata') == expected_metadata

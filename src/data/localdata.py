@@ -14,7 +14,7 @@ __all__ = ['load_csv', 'process_csv', 'scale_distribution']
 def load_datetime_csv(filename):
     with open(filename, 'r') as datafile:
         logger.debug(f"load_datetime_csv()-->loading datetime csv file={filename} ...")
-        df = pd.read_csv(datafile, index_col='Date', parse_dates=True)
+        df = pd.read_csv(datafile, index_col='Date', parse_dates=True, date_parser=lambda x: pd.datetime.strptime(x, '%m/%d/%Y %H:%M:%S %p'))
         return df
 
 
