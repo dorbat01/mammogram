@@ -81,7 +81,3 @@ def mock_df():
          'density': [3.0, np.nan, 3.0], 'severity': [0, 1, 0]}
     return pd.DataFrame(data=d)
 
-
-def test_scale():
-    expected_data = np.random.rand(5, 3)
-    print(scale_distribution(expected_data))
